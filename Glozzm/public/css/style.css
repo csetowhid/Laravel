@@ -1,0 +1,106 @@
+.nav-item{
+	padding: 10px;
+}
+.nav-link{
+	text-transform: uppercase;
+}
+.navbar{
+	background: #333;
+}
+
+.fa{
+	color: mediumseagreen;
+		font-size: 50px;
+	}
+.fas{
+	color: mediumseagreen;
+		font-size: 50px;
+	}
+.fab{
+	color: red;
+	font-size: 50px;
+	}
+.far{
+	font-size: 50px;
+	}
+#getstarted{
+	background:linear-gradient(#00000088,#00000088),linear-gradient(#00000088,#00000088), url(../Images/bg1.jpeg);
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	min-height: 250px;
+	opacity: rgba(0,0,0,0.2);
+	
+}
+#homeicon{
+	background: #7b858aad;
+}
+.me{
+	background: #ffffff;
+    padding: 15px;
+    padding-top: 10px;
+    margin-top: 30px;
+    overflow: hidden;
+    line-height: 20px;
+    display: inline-block;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    transition: all 1s;
+}
+.me:hover{background: transparent;color: white;cursor: pointer;
+transform: translateY(-20px);}
+#home-video{
+	background:linear-gradient(#00000055,#00000055),linear-gradient(#00000055,#00000055), url(../Images/people.jpeg);
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	min-height: 250px;
+	opacity: rgba(0,0,0,0.2);
+}
+#gallery img{
+		min-height: 250px;
+}
+#copyright{
+	background: #000;
+}
+#pageheader{
+	background:linear-gradient(#00000040,#00000040),linear-gradient(#00000040,#00000040), url(../Images/image1.jpeg);
+	background-size: cover;
+	height: 200px;
+	background-attachment: fixed;
+	margin-top:50px;
+	padding-top: 50px;
+}
+#serviceheader{
+	background:linear-gradient(#00000055,#00000055),linear-gradient(#00000055,#00000055), url(../Images/image2.jpeg);
+	background-size: cover;
+	height: 200px;
+	background-attachment: fixed;
+	margin-top:50px;
+	padding-top: 50px;
+}
+.list-group-item i{
+	font-size: 15px;
+	color: black;
+}
+@media (max-width: 767px) {
+	.nav-item{
+	padding: 0;
+
+}
+}
+.carousel-item{
+	height: 450px;
+}
+.carousel-img-1{
+	background: url('../Images/image1.jpeg');
+	background-size: cover;
+}
+.carousel-img-2{
+	background: url('../Images/image2.jpeg');
+	background-size: cover;
+}
+.carousel-img-3{
+	background: url('../Images/image3.jpeg');
+	background-size: cover;
+}
